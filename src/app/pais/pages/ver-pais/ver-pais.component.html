@@ -20,6 +20,9 @@
             <h3>Información</h3>
             <ul class="list-group">
                 <li class="list-group-item">
+                    <strong>Capital: </strong> {{pais.capital}}
+                </li>
+                <li class="list-group-item">
                     <strong>Población: </strong> {{pais.population | number}}
                 </li>
                 <li class="list-group-item">
@@ -27,6 +30,15 @@
                 </li>
                 <li class="list-group-item">
                     <strong>Código alpha3: </strong> {{pais.cca3}}
+                </li>
+                <li class="list-group-item">
+                    <strong>Zona horaria: </strong> {{pais.timezones}}
+                </li>
+                <li class="list-group-item">
+                    <strong>Subregion: </strong> {{pais.subregion}}
+                </li>
+                <li class="list-group-item">
+                    <strong>Área Geográfica: </strong> {{pais.area | number}}
                 </li>
             </ul>
         </div>
